@@ -1,3 +1,4 @@
+pip==23.2.1
 #langchain==0.0.249
 langchain
 #PyPDF2==3.0.1

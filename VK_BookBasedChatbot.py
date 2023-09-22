@@ -65,7 +65,7 @@ def main():
         ''')
 
         add_vertical_space(4)
-        st.write('💡All about pdf based chatbot, created by VK🤗')
+        st.write('💡All about pdf based chatbot, created by RS🤗')
 
     # upload a your pdf file
     pdf = st.file_uploader("Upload your PDF", type='pdf')
