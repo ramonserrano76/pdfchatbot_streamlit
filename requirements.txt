@@ -6,7 +6,7 @@ streamlit
 faiss-cpu==1.7.4
 streamlit-extras
 openai==0.27.8
+pip==23.2.1
 tiktoken
 altair==4.1.0
 pycryptodome==3.19.0
-pip==23.2.1
