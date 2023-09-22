@@ -1,15 +1,15 @@
 pip==23.2.1
-#langchain==0.0.249
+langchain==0.0.249
 langchain
-#PyPDF2==3.0.1
-PyPDF2
+PyPDF2==3.0.1
+# PyPDF2
 # python-dotenv==1.0.0
-# streamlit==1.25.0 
-streamlit==1.23.1
+streamlit==1.25.0 
+# streamlit==1.23.1
 #streamlit==1.18.1
 faiss-cpu==1.7.4
 streamlit-extras
 openai==0.27.8
-# tiktoken==0.4.0
+tiktoken==0.4.0
 altair==4.1.0
 pycryptodome==3.19.0
