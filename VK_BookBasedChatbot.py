@@ -231,7 +231,7 @@ def main():
             docs = vectorstore.similarity_search(query=query, k=3)
             client = None  # You need to provide your OpenAI API client here
             
-            llm = OpenAI(client=client, temperature=0.7, model="ft:gpt-3.5-turbo-0613:langchain::7qTVM5AR")
+            llm = OpenAI(client=client, temperature=0.7, model="gpt-3.5-turbo-0613")
             chain = load_qa_chain(llm=llm, chain_type="stuff")
             with get_openai_callback() as cb:
                 response = chain.run(input_documents=docs, question=query)
