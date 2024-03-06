@@ -1,6 +1,5 @@
 pip==24.0
-langchain==0.0.249
-langchain
+langchain==0.1.11
 PyPDF2==3.0.1
 # PyPDF2
 python-dotenv==1.0.0
