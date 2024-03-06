@@ -106,7 +106,13 @@ def main():
             # Text models such as text-davinci-003, text-davinci-002 and earlier (ada, babbage, curie, davinci, etc.)
             # Temperature low 0 to 0.2 , mid 0.3 to 0.6, high 0.7 to 1 
             
-            llm = OpenAI(client=client, temperature=0.7, model="text-davinci-004")
+            # llm = OpenAI(client=client, temperature=0.7, model="text-davinci-004")
+            # chain = load_qa_chain(llm=llm, chain_type="stuff")
+            # with get_openai_callback() as cb:
+            #     response = chain.run(input_documents=docs, question=query)
+            # st.write(response)
+            
+            llm = OpenAI(client=client, temperature=0.7, model="gpt-3.5-turbo-1106")
             chain = load_qa_chain(llm=llm, chain_type="stuff")
             with get_openai_callback() as cb:
                 response = chain.run(input_documents=docs, question=query)
