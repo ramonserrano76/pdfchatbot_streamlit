@@ -129,7 +129,7 @@
 # if __name__ == "__main__":
 #     main()
 import openai
-from openai import api_requestor, error, util, client, version, paginators, Model
+from openai import api_requestor, error, util, version, Model
 import streamlit as st
 from streamlit_extras.add_vertical_space import add_vertical_space
 from PyPDF2 import PdfFileReader, PdfFileWriter, PdfReader
